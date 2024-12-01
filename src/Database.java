@@ -2,9 +2,9 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class Database {
-    private static final String URL = "jdbc:mysql://localhost:3306/practice";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "Samsung e7 aman";
+    private static final String URL = "YOUR_JDBC_URL";
+    private static final String USERNAME = "YOUR_USERNAME";
+    private static final String PASSWORD = "YOUR_PASSWORD";
 
     // RETRIEVAL
     public static void retrieveTable(Connection connection) {
